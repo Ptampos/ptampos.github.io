@@ -1,0 +1,71 @@
+
+body, html {
+
+	width: 100%;
+	height: 100%;
+	font-family: sans-serif;
+
+	background: url('C:/Users/paulo/Desktop/Web Develloper/Start up landing page 1/header.jpg') no-repeat center center fixed; 
+  	-webkit-background-size: cover;
+ 	 -moz-background-size: cover;
+ 	 -o-background-size: cover;
+  	background-size: cover;
+	margin: 0;
+	
+	
+
+}
+
+
+/* Maktes h1 into a flexbox display. Tell it to center using flexbox properties
+Telling the flexbox width as auto (same size as text) and height  */
+h1 {
+	
+	color: white;
+	font-weight: bold;
+	text-transform: uppercase;
+	
+	
+}
+
+hr {
+	margin: 20px auto;
+	background-color: #87B559;
+	border-color: #87B559;
+	border:  3px solid #87B559;
+	max-width: 50px;
+	opacity: 1;
+
+}
+.btn {
+	font-weight: 700;
+	border-radius: 300px;
+	text-transform: uppercase;
+
+}
+
+.btn-primary {
+	background-color: #87B559;
+	border-color: #87B559;
+
+}
+
+.btn-primary:hover {
+	background-color: #ADD188;
+	border-color: #ADD188;
+	border-width: 3px;
+}
+
+.btn-xl{
+
+	padding: 1rem 2rem;
+}
+
+.container {
+	height: 100%;
+	width: 100%;
+}
+
+.buffer {
+	height: 10rem;
+}
